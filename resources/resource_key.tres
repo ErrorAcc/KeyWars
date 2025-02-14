@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://djgilsu5nk2ro"]
+
+[ext_resource type="Script" path="res://scrips/itemdata.gd" id="1_yhtx8"]
+[ext_resource type="Texture2D" uid="uid://dn3bngibmfeu3" path="res://assets/Key_01.png" id="2_an47w"]
+
+[resource]
+script = ExtResource("1_yhtx8")
+type = {
+"KEY": 0,
+"MAIN": 1
+}
+name = "Key"
+description = "This is a useless key!"
+texture = ExtResource("2_an47w")
+health = 0

@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://bssc1pjxhyake"]
+
+[ext_resource type="Script" path="res://scrips/gui.gd" id="1_suwyx"]
+
+[node name="Gui" type="CanvasLayer"]
+script = ExtResource("1_suwyx")
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = 256.0
+offset_top = 128.0
+offset_right = 896.0
+offset_bottom = 448.0
+metadata/_edit_lock_ = true
+
+[node name="Inv" type="GridContainer" parent="."]
+unique_name_in_owner = true
+offset_left = 280.0
+offset_top = 152.0
+offset_right = 864.0
+offset_bottom = 424.0
+columns = 5

@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3 uid="uid://b50kdtwjwvstq"]
+
+[ext_resource type="Script" path="res://scrips/key.gd" id="1_mtqev"]
+[ext_resource type="Texture2D" uid="uid://dn3bngibmfeu3" path="res://assets/Key_01.png" id="2_r438a"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_qkgeb"]
+line_spacing = 4.0
+font_size = 26
+outline_size = 4
+outline_color = Color(0.160977, 0.161042, 0.304364, 1)
+shadow_size = 5
+shadow_color = Color(0, 0, 0, 0.345098)
+
+[node name="Key" type="Node2D"]
+script = ExtResource("1_mtqev")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1.90735e-06, -1.90735e-06)
+scale = Vector2(3.5, 3.5)
+texture = ExtResource("2_r438a")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -20.0
+offset_top = -18.0
+offset_right = 20.0
+offset_bottom = 17.0
+text = "W"
+label_settings = SubResource("LabelSettings_qkgeb")
+horizontal_alignment = 1
+vertical_alignment = 1
