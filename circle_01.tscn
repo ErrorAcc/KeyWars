@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://dvpr7uo4w58q0"]
+[gd_scene load_steps=8 format=3 uid="uid://bf57fxdutpumc"]
 
 [ext_resource type="Script" path="res://circle_01.gd" id="1_0dcfi"]
 [ext_resource type="Texture2D" uid="uid://c5vrkyhopnjqc" path="res://assets/Circle_01.png" id="1_g734m"]
@@ -13,7 +13,7 @@ gradient = SubResource("Gradient_ek3wp")
 [sub_resource type="Curve" id="Curve_vc2kj"]
 min_value = -200.0
 max_value = 200.0
-_data = [Vector2(0, 94.5055), 0.0, 0.0, 0, 0, Vector2(0.193333, -6.59341), 0.0, 0.0, 0, 0]
+_data = [Vector2(0, 50.5495), 0.0, 0.0, 0, 0, Vector2(0.173333, 15.3846), 0.0, 0.0, 0, 0]
 point_count = 2
 
 [sub_resource type="CurveTexture" id="CurveTexture_gugxy"]
@@ -21,10 +21,12 @@ curve = SubResource("Curve_vc2kj")
 
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_ujdiy"]
 lifetime_randomness = 0.8
+emission_shape_scale = Vector3(3, 3, 1)
 emission_shape = 1
-emission_sphere_radius = 8.19
-spread = 180.0
-initial_velocity_max = 360.22
+emission_sphere_radius = 12.5
+direction = Vector3(0, -1, 0)
+spread = 14.663
+initial_velocity_max = 22.19
 gravity = Vector3(0, 0, 0)
 linear_accel_min = 11.27
 linear_accel_max = 14.08
@@ -33,7 +35,6 @@ scale_min = 0.2
 scale_max = 0.6
 color = Color(0.67451, 0.701961, 0.733333, 0.733333)
 color_ramp = SubResource("GradientTexture1D_y6sgh")
-turbulence_enabled = true
 turbulence_noise_strength = 2.47
 turbulence_noise_scale = 8.579
 

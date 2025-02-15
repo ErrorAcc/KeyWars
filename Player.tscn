@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scrips/player.gd" id="1_60a2k"]
 [ext_resource type="Texture2D" uid="uid://vviyvorjn03t" path="res://assets/Player_test.png" id="2_25kee"]
-[ext_resource type="PackedScene" uid="uid://cbwn0cjs20awj" path="res://Weapon_01.tscn" id="3_gafnx"]
+[ext_resource type="PackedScene" uid="uid://vm81ywj03tk" path="res://Weapon_01.tscn" id="3_gafnx"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_5hid1"]
 

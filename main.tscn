@@ -14,6 +14,4 @@ position = Vector2(41, 608)
 
 [node name="Gui" parent="." instance=ExtResource("3_phkn0")]
 
-[node name="object_container" type="Node2D" parent="."]
-
 [node name="particle_container" type="Node2D" parent="."]
