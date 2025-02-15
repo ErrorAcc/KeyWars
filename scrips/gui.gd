@@ -22,5 +22,5 @@ func _ready():
 
 
 func _process(delta: float) -> void:
-	if Input.is_action_just_pressed("rmb"):
+	if Input.is_action_just_pressed("E"):
 		self.visible = !self.visible
